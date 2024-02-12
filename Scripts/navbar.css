@@ -1,0 +1,35 @@
+.navbar {
+  padding: 5pt;
+  border-right: 2px solid #dddddd;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 256px;
+  background-color: #fcfcfc;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-element {
+  margin-left: 10pt;
+}
+
+.selected {
+  background-color: #f4e727; /* WYSI */
+  border-radius: 5pt;
+  width: calc(100% - 50pt);
+}
+
+.nav-icon {
+  width: 22pt;
+}
+
+.nav-element {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10pt;
+}

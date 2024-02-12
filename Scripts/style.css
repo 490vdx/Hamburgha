@@ -4,6 +4,7 @@ body {
   background-image: url("../Resources/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: sans-serif;
 }
 
 .window-container {
@@ -12,65 +13,24 @@ body {
   margin: 10vh 10vw;
   height: 80vh;
   display: flex;
+  flex-direction: row;
   overflow-x: hidden;
 }
 
-.navbar {
-  padding: 5pt;
-  border-right: 2px solid #dddddd;
-  display: flex;
-  flex-basis: 256px;
-}
-
-.tabs {
+.main-content {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
-.nav-element {
-  margin-left: 10pt;
-}
-
-.selected {
-  background-color: #f4e727; /* WYSI */
-  border-radius: 5pt;
-  width: 100%;
-}
-
-@media only screen and (max-width: 768px) {
-  .window-container {
-    flex-direction: column;
-  }
-  .navbar {
-    flex-direction: row;
-    flex-basis: 32pt;
-    border-right: none;
-    border-bottom: 2px solid #dddddd;
-    justify-content: center;
-  }
-
-  .tabs {
-    flex-direction: row;
-  }
-
-  .nav-element {
-    margin-left: 0;
-  }
-
-  .nav-element-text {
-    display: none;
-  }
-}
-
-.nav-icon {
-  width: 22pt;
-}
-
-.nav-element {
-  font-family: sans-serif;
+.logo {
+  background-color: #ccc;
+  border-radius: 10pt;
+  margin: 10px;
   display: flex;
-  gap: 10px;
-  align-items: center;
-  padding: 10pt;
+}
+
+.logo > img {
+  width: 36px;
+  margin: 10px;
+  align-self: center;
 }

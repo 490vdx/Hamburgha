@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  .window-container {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: row;
+    flex-basis: 32pt;
+    border-right: none;
+    border-bottom: 2px solid #dddddd;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+  }
+
+  .tabs {
+    flex-direction: row;
+  }
+
+  .nav-element {
+    margin-left: 0;
+  }
+
+  .nav-element-text {
+    display: none;
+  }
+}

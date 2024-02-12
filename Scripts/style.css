@@ -1,0 +1,54 @@
+/* wip */
+
+body {
+  background-image: url("../Resources/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.window-container {
+  background-color: #fcfcfc;
+  border-radius: 10pt;
+  margin: 10vh 10vw;
+  height: 80vh;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.navbar {
+  padding: 5pt;
+  border-right: 2px solid #dddddd;
+  display: flex;
+  flex-basis: 256px;
+}
+
+@media only screen and (max-width: 768px) {
+  .window-container {
+    flex-direction: column;
+  }
+  .navbar {
+    flex-direction: row;
+    flex-basis: 128px;
+    border-bottom: 2px solid #dddddd;
+  }
+  .nav-element-text {
+    display: none;
+  }
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-icon {
+  width: 22pt;
+}
+
+.nav-element {
+  font-family: sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

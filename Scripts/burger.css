@@ -1,0 +1,24 @@
+.burgers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.burger {
+  background-color: #eeeeee;
+  border-radius: 32px;
+  width: 288px;
+  height: 384px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: var(--burger-shadow) var(--burger-shadow) var(--burger-shadow)
+    rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.burger-pfp > img {
+  width: 256px;
+}

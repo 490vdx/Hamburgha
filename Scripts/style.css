@@ -15,11 +15,15 @@ body {
   display: flex;
   flex-direction: row;
   overflow-x: hidden;
+
+  box-shadow: var(--window-shadow) var(--window-shadow) var(--window-shadow)
+    rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
+  padding: 16px;
 }
 
 .logo {

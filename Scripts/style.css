@@ -23,6 +23,7 @@ body {
 .main-content {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
   padding: 16px;
 }
 
@@ -59,14 +60,26 @@ body {
   padding: 10px;
 }
 
-.top-bar > input {
-  display: content-box;
+.top-bar:last-child {
+}
+
+.top-bar .search {
+  width: auto;
+  padding: 0;
+}
+
+.top-bar .search > img {
+  margin: 5pt;
+}
+
+.top-bar .search > input {
   padding: 0;
   border-radius: 16px;
   border: 0;
   width: max-content;
   font-size: 16px;
   padding-left: 8px;
+  background-color: #dddddd;
 }
 
 .back-button {

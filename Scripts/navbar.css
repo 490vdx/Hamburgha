@@ -6,9 +6,10 @@
   flex-direction: column;
   flex-basis: 256px;
   background-color: #fcfcfc;
+  gap: 16px;
 
-  position: sticky;
-  top: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .tabs {
@@ -45,7 +46,47 @@
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 16px;
+  padding: 10px;
+
+  box-shadow: var(--burger-shadow) var(--burger-shadow) var(--burger-shadow)
+    rgba(0.5, 0.5, 0.5, 0.2);
+
+  gap: 5px;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.copyright {
+  justify-self: center;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 14pt;
+}
+
+.user-pfp > img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.logotype {
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .logotype > span {

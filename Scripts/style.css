@@ -1,10 +1,12 @@
 /* wip */
+* {
+  font-family: "Roboto", sans-serif;
+}
 
 body {
   background-image: url("../Resources/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: sans-serif;
 }
 
 .window-container {
@@ -43,14 +45,29 @@ body {
 .main-content button {
 }
 
+.burgers-title {
+  font-size: 32pt;
+  font-weight: 600;
+  padding: 16px;
+  padding-bottom: 32px;
+}
+
 .top-bar {
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: space-between;
 }
 
-.top-bar > * {
+.tb-left,
+.tb-right {
+  display: flex;
+  gap: 20px;
+}
+
+.tb-left > *,
+.tb-right > * {
   width: 24pt;
   height: 24pt;
   padding: 10pt;
@@ -58,6 +75,16 @@ body {
   border-radius: 16px;
   background-color: #dddddd;
   padding: 10px;
+}
+
+.stack {
+  width: auto;
+  height: 12px;
+  padding: 2px 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 .top-bar:last-child {

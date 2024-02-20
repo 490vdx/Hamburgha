@@ -22,3 +22,18 @@
 .burger-pfp > img {
   width: 256px;
 }
+
+.burger-name {
+  font-size: 24pt;
+  font-weight: 500;
+}
+
+.burger-weight {
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+.burger-price {
+  font-size: 18pt;
+  font-weight: 450;
+}

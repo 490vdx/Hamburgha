@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamburgha</title>
 
-    <link
-      rel="stylesheet"
-      href="./Scripts/normalize.css"
-    />
+    <link rel="stylesheet" href="./Scripts/normalize.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./Scripts/variables.css" />
     <link rel="stylesheet" href="./Scripts/reset.css" />
@@ -43,6 +44,21 @@
             <img src="Resources/bills.svg" class="nav-icon" />
             <div class="nav-element-text">Bills</div>
           </div>
+          <div class="nav-element">
+            <img src="Resources/settings.svg" class="nav-icon" />
+            <div class="nav-element-text">Settings</div>
+          </div>
+        </div>
+        <span class="other-label">Other</span>
+        <div class="other">
+          <div class="nav-element">
+            <img src="Resources/notifications.svg" class="nav-icon" />
+            <div class="nav-element-text">Notifications</div>
+          </div>
+          <div class="nav-element">
+            <img src="Resources/support.svg" class="nav-icon" />
+            <div class="nav-element-text">Support</div>
+          </div>
         </div>
         <div class="nav-footer">
           <div class="user">
@@ -60,9 +76,17 @@
       </nav>
       <div class="main-content">
         <span class="top-bar">
-          <button class="back-button"><img src="Resources/back.svg" /></button>
-          <div class="search"><img src="Resources/search.svg" /><input type="text"></input></div>
+          <span class="tb-left">
+            <button class="back-button"><img src="Resources/back.svg" /></button>
+            <div class="stack">Food & Drinks &gt Burgers</div>
+          </span>
+          <span class="tb-right">
+            <div class="search"><img src="Resources/search.svg" /><input type="text"></input></div>
+          </span>
         </span>
+        <div class="burgers-title">
+          Burgers 🍔
+        </div>
         <div class="burgers">
           <!-- FIRE IN THE HOLE -->
           <div class="burger">

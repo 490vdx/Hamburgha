@@ -4,7 +4,7 @@
   }
   .navbar {
     flex-direction: row;
-    flex-basis: 32pt;
+    flex-basis: var(--navbar-mobile-fb);
     border-right: none;
     border-bottom: 2px solid #dddddd;
     justify-content: center;
@@ -22,12 +22,10 @@
     margin-left: 0;
   }
 
-  .nav-element-text {
-    display: none;
-  }
-
+  .nav-element-text,
   .nav-footer,
-  .copyright {
+  .copyright,
+  .logotype {
     display: none;
   }
 }

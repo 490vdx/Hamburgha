@@ -1,5 +1,6 @@
 .navbar {
   padding: 5pt;
+  padding-left: 2pt;
   border-right: 2px solid #dddddd;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,7 @@
 .selected {
   background-color: #f4e727; /* WYSI */
   border-radius: 5pt;
-  width: calc(100% - 50pt);
+  width: calc(100%-50px);
 }
 
 .nav-icon {
@@ -39,4 +40,14 @@
 
 .nav-footer {
   bottom: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logotype > span {
+  color: #ff0808;
 }

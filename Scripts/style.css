@@ -33,8 +33,46 @@ body {
   display: flex;
 }
 
-.logo > img {
+.logo img {
   width: 36px;
   margin: 10px;
   align-self: center;
+}
+
+.main-content button {
+}
+
+.top-bar {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.top-bar > * {
+  width: 24pt;
+  height: 24pt;
+  padding: 10pt;
+  display: flex;
+  border-radius: 16px;
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+.top-bar > input {
+  display: content-box;
+  padding: 0;
+  border-radius: 16px;
+  border: 0;
+  width: max-content;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.back-button {
+  align-items: center;
+  justify-content: center;
+}
+.back-button > img {
+  width: 16pt;
 }

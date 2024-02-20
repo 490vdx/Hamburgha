@@ -4,6 +4,12 @@ a {
 
 ul {
   list-style-type: none;
+  offset: none;
+}
+
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* Muszę dwa oddzielne elementy zrobić, bo Micro$oft €dge i Int€rnet €xp£or€r

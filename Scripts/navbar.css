@@ -53,6 +53,16 @@
   color: #404040;
 }
 
+.mobile-menu > img {
+  width: 32px;
+  display: flex;
+  justify-self: center;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 .user {
   display: flex;
   flex-direction: column;

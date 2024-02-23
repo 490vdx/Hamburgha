@@ -22,9 +22,16 @@
   <body>
     <div class="window-container">
       <nav class="navbar">
+        <div class="mobile-menu">
+          <img src="Resources/menu.svg" />
+        </div>
         <div class="logo">
           <img src="Resources/logo.svg" />
           <div class="logotype">Dumb<span>ROT</span></div>
+        </div>
+        <div class="mobile-menu">
+          <img src="Resources/notifications.svg" class="nav-icon" />
+          <img src="Resources/support.svg" class="nav-icon" />
         </div>
 
         <div class="tabs">
@@ -50,12 +57,13 @@
           </div>
         </div>
         <span class="other-label">Other</span>
-        <div class="other">
-          <div class="nav-element">
+
+        <div class="tabs">
+          <div class="nav-element other-elem">
             <img src="Resources/notifications.svg" class="nav-icon" />
             <div class="nav-element-text">Notifications</div>
           </div>
-          <div class="nav-element">
+          <div class="nav-element other-elem">
             <img src="Resources/support.svg" class="nav-icon" />
             <div class="nav-element-text">Support</div>
           </div>
@@ -78,7 +86,10 @@
         <span class="top-bar">
           <span class="tb-left">
             <button class="back-button"><img src="Resources/back.svg" /></button>
-            <div class="stack">Food & Drinks &gt Burgers</div>
+            <div class="stack">
+              <div>Food & Drinks &gt&MediumSpace;</div>
+              <div class="last-category">Burgers</div>
+            </div>
           </span>
           <span class="tb-right">
             <div class="search"><img src="Resources/search.svg" /><input type="text"></input></div>

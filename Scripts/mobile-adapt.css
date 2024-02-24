@@ -13,7 +13,19 @@
   }
 
   .navbar {
-    flex-basis: min-content;
+    flex-basis: 128px;
+  }
+
+  .user-pfp > img {
+    width: 64px;
+  }
+
+  .user > .username {
+    display: none;
+  }
+
+  .user > .info {
+    display: none;
   }
 }
 
